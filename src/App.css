@@ -1,0 +1,16 @@
+/* Add in your main CSS file or inside a <style> tag */
+.loader-small {
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  border-radius: 9999px;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
